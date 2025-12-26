@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// p start index r end index
 void merge(int a[], int p, int r) {
     int mid = (p + r) / 2;          // compute mid here
 
@@ -43,3 +44,4 @@ void mergeSort(int a[], int p, int r) {
         merge(a, p, r);   // only p and r passed
     }
 }
+
